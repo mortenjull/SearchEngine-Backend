@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Infrastructur.Entities
 {
-    class Document
-    {
+    public class Document
+    {      
+        public int Id { get;}
+
+        public string Path { get; set; }
     }
 }

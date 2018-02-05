@@ -8,7 +8,10 @@ namespace Infrastructur.Entities
     {
         public int Id { get; }
         public int SearchWordId { get; set; }
+        public SearchWord SearchWord { get; set; }
+
         public int DocumentId { get; set; }
+        public Document Document { get; set; }
         
     }
 }
